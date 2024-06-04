@@ -1,0 +1,18 @@
+*.app
+*.flf
+*.bclicense
+*.g.xlf
+cache_*
+~$*
+rad.json
+.output/
+.dependencies/
+.buildartifacts/
+.alpackages/
+.packages/
+.alcache/
+.altemplates/
+.snapshots/
+/Logistics Unit Using Examples Extension/.vscode/.alcache
+/Logistics Unit Using Examples Extension/.vscode/rad.json
+/Logistics Unit Using Examples Extension/Translations
