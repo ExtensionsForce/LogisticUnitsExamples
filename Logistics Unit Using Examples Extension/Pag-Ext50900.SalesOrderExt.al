@@ -8,9 +8,9 @@ pageextension 50900 SalesOrderExt extends "Sales Order"
     {
         addafter(Category_Report)
         {
-            group("LU Examples Promoted")
+            group("Extensionsforce Examples Promoted")
             {
-                Caption = 'LU Examples Examples';
+                Caption = 'Extensionsforce Examples';
 
                 actionref("Create LU Promoted"; "Create LU")
                 {
@@ -34,21 +34,6 @@ pageextension 50900 SalesOrderExt extends "Sales Order"
                     LogisticUnit: Record "TMAC Unit";
                 begin
                     LogisticUnit := LogisticUnitManagement.CreateLogisticUnit(Rec, 'C20DC', 'BIC U 7878390', 'Container')
-                end;
-            }
-
-            action("Create LU 2")
-            {
-                Caption = 'Leanova - Create - Logistic Unit - 2';
-                Image = Item;
-                ApplicationArea = All;
-                ToolTip = 'Create new logistic unit';
-
-                trigger OnAction()
-                var
-                    LogisticUnitManagement: Codeunit "Logistic Unit Management";
-                begin
-                    Message('test');
                 end;
             }
         }
