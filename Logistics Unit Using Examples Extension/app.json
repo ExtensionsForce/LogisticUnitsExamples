@@ -1,0 +1,39 @@
+{
+  "id": "d682518f-ad6d-4a3f-bffa-c484210447a8",
+  "name": "Logistics Unit Extension Using Examples",
+  "publisher": "ExtensionsForce",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "c383b772-f29f-4c05-b1ac-7801c76750af",
+      "name": "Logistic Units",
+      "publisher": "ExtensionsForce",
+      "version": "24.0.0.0"
+    } 
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50900,
+      "to": 50910
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

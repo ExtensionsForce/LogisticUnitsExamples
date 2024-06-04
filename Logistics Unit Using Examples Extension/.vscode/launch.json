@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            //"request": "attach", //for debug
+            "name": "BC24",
+            "server": "http://bc24",
+            "tenant": "default",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 70611879,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+        }
+    ]
+}
