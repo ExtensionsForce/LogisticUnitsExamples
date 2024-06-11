@@ -1,5 +1,8 @@
 # Logistics Units Examples
 This repository contains example codes for working with the Logistics Units extension for Microsoft Dynamics 365 Business Central.
+
+[Appsource page of the Logistic Units extension](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.logisticunits%7CPAPPID.c383b772-f29f-4c05-b1ac-7801c76750af?tab=Overview)
+
   
    ![alt text](https://github.com/ExtensionsForce/LogisticUnitsExamples/blob/main/github/AppsourceLogisticUnits.png)
 
