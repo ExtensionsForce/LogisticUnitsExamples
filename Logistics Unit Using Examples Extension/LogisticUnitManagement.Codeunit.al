@@ -1,5 +1,5 @@
 /// <summary>
-/// Create Logistic Unit Examples
+/// Logistic Unit Examples
 /// </summary>
 codeunit 50900 "Logistic Unit Management"
 {
